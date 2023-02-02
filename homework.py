@@ -21,7 +21,7 @@ class Computer:
         return self.video_card + "Мощная видюха для задрота" 
     
     def CPU(self):
-        return f"Мощный процессор для игромана + {self.central_processing_unit}"
+        return  self.video_card + "Мощный процессор для игромана"
 
     def SSD(self):
         return f"По больше памяти для игр, потому что задрот будет качать много игр {self.ssd_harddisk}"
