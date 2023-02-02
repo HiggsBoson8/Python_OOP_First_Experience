@@ -40,7 +40,7 @@ class Elf:
         return self.name + "Hmmmm.... probably hunting Orks? Fighting with Aragorn and Gimmly?"
 
     def get_house_pet(self):
-        return self.name + "he has no pet, but he has a BIG BEAUTIFUL BOW for killing goddamn Orks!"
+        return self.name + "he has no pet, but he has a BIG BEAUTIFUL BOW for killing these goddamn Orks!"
 
     def __str__(self):
         return f"Huh? Are we gonna hunt some Orks?"
