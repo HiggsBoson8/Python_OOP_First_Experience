@@ -5,28 +5,28 @@ class Calculator():
         self.num2 = num2
 
     def add(self):
-        return f"{self.num1 + self.num2} * сложить"
+        return f"{self.num1 + self.num2} -> * сложить"
 
     def substract(self):
-        return f"{self.num1 - self.num2} - вычесть"
+        return f"{self.num1 - self.num2} -> - вычесть"
 
     def multiply(self):
-        return f"{self.num1 * self.num2} * умножить" 
+        return f"{self.num1 * self.num2} -> * умножить" 
 
     def divide(self):
         try:
-            return f"{self.num1 / self.num2}  / деление"
+            return f"{self.num1 / self.num2} -> / деление"
         except ZeroDivisionError:
             return "На ноль делить нельзя"
 
     def exponentiation(self):
-        return f"{self.num1 ** self.num2} ** возведение в степень"
+        return f"{self.num1 ** self.num2} -> ** возведение в степень"
 
     def integer_division(self): 
-        return f"{self.num1 // self.num2} // целочисленное деление"
+        return f"{self.num1 // self.num2} -> // целочисленное деление"
 
     def remainder_of_division(self):
-        return f"{self.num1 % self.num2} % остаток от деления"
+        return f"{self.num1 % self.num2} -> % остаток от деления"
 
     def __str__(self):
         return "error"
